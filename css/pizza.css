@@ -1,0 +1,198 @@
+﻿container {
+    opacity: 0.95;
+}
+
+body {
+    background-color: #ffffff;
+    background-image: url("../img/pizzabackground.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#menu_tops {
+    margin: 0% auto;
+    width: 650px;
+    border-radius: 25px;
+    padding: 1px 0px;
+    opacity: 1;
+}
+
+h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 60px;
+    color: #910f0f;
+    text-shadow: 1.5px 1.5px 5px #fff, 1px 1px 5px #000;
+    margin: -2% 0 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+#menu_tops > h4 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 50px;
+    color: #910f0f;
+    text-shadow: 1.5px 1.5px 5px #fff, 1px 1px 5px #000;
+    margin: -2% 0 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#form_menu {
+    margin: 0% auto;
+    width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    border-radius: 25px;
+}
+
+.menu {
+    flex: 1 150px;
+    min-width: 0;
+    border: 2px solid #470000;
+    box-shadow: 0 0 0 3px rgba(255,255,255, .7);
+    padding: 0 0 10px 0;
+}
+
+.menu:nth-child(even) {
+    background-color: rgba(242,237,237, 0.9);
+    border-radius: 25px;
+}
+
+.menu:nth-child(odd) {
+    background-color: rgba(255,242,242, 0.9);
+    border-radius: 25px;
+}
+
+.menu > h3 {
+    color: #fff;
+    padding: 0 0 0 30px;
+    margin: 0 auto;
+    background-color: rgba(196, 11,11, .8);
+    border-radius: 25px 25px 0 0;
+    text-shadow: 1.5px 1.5px 5px #ed1e1e, 1px 1px 5px #000;
+}
+
+.button {
+    cursor: pointer;
+    color: #fff;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    border-radius: .5em;
+    margin: 1% auto;
+    padding: .1px 0 .1px 0px;
+    font: 26px 'Luckiest Guy', cursive;
+    letter-spacing: 2.5px;
+    background-color: rgba(163,32,32, .95);
+    box-shadow: 0 0 0 2px rgba(255,255,255, .8);
+    transition-property: transform background, box-shadow, color;
+    transition-duration: .3s, .5s, .2s;
+    transition-timing-function: ease-in-out;
+}
+
+.button > p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.button:hover {
+    font: 26px 'Luckiest Guy', cursive;
+    letter-spacing: 5px;
+    font-weight: bold;
+    color: #000;
+    background-color: rgba(255, 255, 255, .6);
+    box-shadow: 0 0 0 2px #720000;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 550px;
+}
+
+.controls>.button {
+    flex: 1 150px;
+}
+
+#cart {
+    opacity: 0;
+    margin: 15px auto;
+    width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    background-color: rgba(242,237,237, 0.9);
+    border: 2px solid #720000;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.8);
+    border-radius: 25px;
+}
+
+#title1 {
+    color: #fff;
+    flex: 1 250px;
+    height: 50px;
+    width: 250px;
+    padding: 0 0 0px 10px;
+    background-color: rgba(196, 11,11, .8);
+    border-radius: 25px 0 0 0;
+    text-shadow: 1.5px 1.5px 5px #ff3838, 1px 1px 5px #000;
+}
+
+#title2 {
+    color: #fff;
+    flex: 1 250px;
+    height: 50px;
+    width: 250px;
+    padding: 0 0 0px 10px;
+    background-color: rgba(196,11,11,.8);
+    border-radius: 0 25px 0 0;
+    text-shadow: 1.5px 1.5px 5px #ff3838, 1px 1px 5px #000;
+}
+
+#showText1 {
+    font-size: 13px;
+    flex: 1 250px;
+    padding: 1px 0 10px 10px;
+    width: 250px;
+    border-radius: 0 0 0 0;
+}
+
+#showText2 {
+    font-size: 13px;
+    flex: 1 250px;
+    padding: 1px 0 10px 10px;
+    width: 250px;
+    border-radius: 0 0 0 0;
+}
+
+
+#totalPrice1 {
+    flex: 1 250px;
+    padding: 0 0 10px 10px;
+    width: 250px;
+    border-radius: 0 0 0 0;
+}
+
+#totalPrice2 {
+    flex: 1 250px;
+    font-weight: bold;
+    padding: 20px 0 10px 10px;
+    width:250px;
+    border-radius: 0 0 0 0;
+}
+
+
+
+
+
+
+
